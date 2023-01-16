@@ -53,8 +53,8 @@ Please check our [Wiki](https://github.com/vpnhood/VpnHood/wiki) to see the VpnH
 
 ## Support
 You are always welcome!
-* Feel free to start a new discussion [GitHub discussions](https://github.com/vpnhood/VpnHood/discussions).
-* Report bugs or request features in [GitHub issues](https://github.com/vpnhood/VpnHood/issues).
+* Feel free to start a new discussion [GitHub discussions](https://github.com/Noor-e-Bilal/VPN/discussions).
+* Report bugs or request features in [GitHub issues](https://github.com/Noor-e-Bilal/VPN/issues).
 
 ## Supported Server
 <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-win.png"></a>|<a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>
@@ -62,7 +62,4 @@ You are always welcome!
 Windows|Linux
 
 ## Special Thanks
-* [SharpPcap](https://github.com/chmorgan/sharppcap): Fully managed, cross platform .NET library for capturing packets from live and file based devices.
-* [WinDivert](https://reqrypt.org/windivert.html): a user-mode packet capture-and-divert package for Windows.
-* [EmbedIO](https://github.com/unosquare/embedio): A tiny, cross-platform, module based web server for .NET.
-* [Advanced Installer](https://www.advancedinstaller.com): Installer tools for Windows.
+* [Noor-e-Bilal-Mugha](https://github.com/Noor-e-Bilal-Mughal): Alhamdullilah Smartest Man Alive.
