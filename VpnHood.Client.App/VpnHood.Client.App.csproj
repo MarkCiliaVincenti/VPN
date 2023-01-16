@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>VpnHood</Authors>
+    <Company>VpnHood</Company>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <Copyright>2022 VpnHood</Copyright>
+    <PackageProjectUrl>https://github.com/vpnhood/vpnhood</PackageProjectUrl>
+    <PackageIcon>VpnHood.png</PackageIcon>
+    <RepositoryUrl>https://github.com/vpnhood/vpnhood</RepositoryUrl>
+    <Description>Readymade Vpn App skeleton for VpnHood clients. You just need to create a UI on it.</Description>
+    <PackageId>VpnHood.Client.App</PackageId>
+    <Version>2.6.333</Version>
+    <AssemblyVersion>2.6.333</AssemblyVersion>
+    <FileVersion>2.6.333</FileVersion>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VpnHood.Client\VpnHood.Client.csproj" />
+    <ProjectReference Include="..\VpnHood.Common\VpnHood.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\VpnHood.png" Link="Resources\VpnHood.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\IP2LOCATION-LITE-DB1.CSV">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

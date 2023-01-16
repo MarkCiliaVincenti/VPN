@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>VpnHood</Authors>
+    <Company>VpnHood</Company>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <Copyright>2022 VpnHood</Copyright>
+    <PackageProjectUrl>https://github.com/vpnhood/vpnhood</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vpnhood/vpnhood</RepositoryUrl>
+    <PackageIcon>VpnHood.png</PackageIcon>
+    <Description>VpnHood client device provider for Windows using WinDivert.</Description>
+    <Version>2.6.333</Version>
+    <PackageId>VpnHood.Client.Device.WinDivert</PackageId>
+    <Version>1.1.226</Version>
+    <AssemblyVersion>2.6.333</AssemblyVersion>
+    <FileVersion>2.6.333</FileVersion>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="WinDivert.dll" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\VpnHood.png" Link="Resources\VpnHood.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SharpPcap" Version="6.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharpPcap">
+      <HintPath>SharpPcap.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VpnHood.Client.Device\VpnHood.Client.Device.csproj" />
+    <ProjectReference Include="..\VpnHood.Common\VpnHood.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+</Project>

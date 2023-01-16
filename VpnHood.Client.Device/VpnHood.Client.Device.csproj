@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Product>VpnHood.Client.Device</Product>
+    <Company>VpnHood</Company>
+    <Authors>VpnHood</Authors>
+    <Description>VpnHood Device abstraction</Description>
+    <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <Copyright>2022 VpnHood</Copyright>
+    <PackageProjectUrl>https://github.com/vpnhood/vpnhood</PackageProjectUrl>
+    <PackageIcon>VpnHood.png</PackageIcon>
+    <RepositoryUrl>https://github.com/vpnhood/vpnhood</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageId>VpnHood.Client.Device</PackageId>
+    <RootNamespace>VpnHood.Client.Device</RootNamespace>
+    <Version>2.6.333</Version>
+    <AssemblyVersion>2.6.333</AssemblyVersion>
+    <FileVersion>2.6.333</FileVersion>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\VpnHood.png" Link="Resources\VpnHood.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PacketDotNet" Version="1.4.7" />
+    <PackageReference Include="System.Text.Json" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VpnHood.Common\VpnHood.Common.csproj" />
+  </ItemGroup>
+
+</Project>
