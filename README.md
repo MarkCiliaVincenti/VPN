@@ -53,8 +53,8 @@ Please check our [Wiki](https://github.com/vpnhood/VpnHood/wiki) to see the VpnH
 
 ## Support
 You are always welcome!
-* Feel free to start a new discussion [GitHub discussions](https://github.com/Noor-e-Bilal/VPN/discussions).
-* Report bugs or request features in [GitHub issues](https://github.com/Noor-e-Bilal/VPN/issues).
+* Feel free to start a new discussion [GitHub discussions](https://github.com/Noor-e-Bilal-Mughal/VPN/discussions).
+* Report bugs or request features in [GitHub issues](https://github.com/Noor-e-Bilal-Mughal/VPN/issues).
 
 ## Supported Server
 <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-win.png"></a>|<a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>
@@ -62,4 +62,4 @@ You are always welcome!
 Windows|Linux
 
 ## Special Thanks
-* [Noor-e-Bilal-Mugha](https://github.com/Noor-e-Bilal-Mughal): Alhamdullilah Smartest Man Alive.
+* [Noor e Bilal Mughal](https://github.com/Noor-e-Bilal-Mughal): Alhamdullilah Smartest Man Alive.
